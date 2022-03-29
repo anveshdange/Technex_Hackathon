@@ -76,5 +76,12 @@ def app():
         else:
             st.write("Congratulations! You are not Diabetic. Probability of being Negative with Diabetes is shown in column 0.")
         st.write(model_loaded.predict_proba(prediction_df))
+        hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+        st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 app()

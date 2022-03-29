@@ -114,6 +114,14 @@ st.markdown('##### Blurry vision.')
 
 st.markdown('### Kindly choose the mode you wish to get predictions with.')
 option = st.selectbox('choose',('Pima Indians', 'Early Diabetes Disease'))
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 
 
 if option == 'Pima Indians':
