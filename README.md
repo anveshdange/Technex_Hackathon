@@ -12,9 +12,8 @@ We are Team Alter Dime and this is our Project which caters to predicting Diseas
 3. Anvesh Khambatkar
 4. Aditya Maurya
 
-Personal machine learning project on building a Diabetes disease prediction model with implementation of a web application.
+A Machine learning project on building a Diabetes disease prediction model with implementation of a web application.
 
-web app: https://share.streamlit.io/group4day2019/ml_internship2021/main/merged.py
 
 This Web App is a combination of 2 individual python scripts which is trained and equipped with Artificial Intelligence and Machine learning ,specifically using Support Vector Machines (SVMs) and an AI  model exported module "Pickle".
 
