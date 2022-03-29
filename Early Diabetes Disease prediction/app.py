@@ -3,7 +3,8 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import Binarizer
 
-st.title("Early Diabetes Disease preiction.")
+st.title("Early Diabetes Disease prediction.")
+
 
 
 def app():

@@ -29,7 +29,7 @@ def pima():
                 st.write(name," we are really sorry to say but it seems like you are Diabetic.")
 # ...............................................................
 def app():
-    st.markdown("## Early Diabetes Disease preiction.")
+    st.markdown("## Early Diabetes Disease prediction.")
 
     option1 = st.selectbox("Age(from 20 years to 65 years.), If above 35years select 'Yes' otherwise select 'No'.", ('Yes', 'No'))
     
@@ -101,8 +101,8 @@ def app():
         st.write(model_loaded.predict_proba(prediction_df))
 
 
-st.title("Diabetes Disease preiction app.")
-
+st.title("Diabetes Disease prediction app.")
+st.write('##### This is a Project by Team Alter Dime for Technex Hackathon 2022 ')
 st.write('Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.')
 
 st.markdown('### Symptoms include the following;')

@@ -7,7 +7,7 @@ import pickle
 pickle_in = open('LR.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
-st.title("Pima Indian Diabetes Disease preiction.")
+st.title("Pima Indian Diabetes Disease prediction.")
 
 st.sidebar.header('Diabetes Prediction')
 select = st.sidebar.selectbox('Select Form', ['Form 1'], key='1')
